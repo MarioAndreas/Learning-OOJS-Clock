@@ -1,0 +1,15 @@
+$clockFontSize: 90px;
+
+body {
+  font-family: Orbitron, Arial,Helvetica,sans-serif;
+}
+#content {
+  position: fixed;
+    top: 50%;
+    left:50%;
+  transform: translate(-50%, -50%);
+
+}
+.clock {
+  font-size: $clockFontSize;
+}
